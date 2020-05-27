@@ -12,6 +12,29 @@
     </head>
     
     <body class="aluminum">
+        <div class="container-fluid main-menu madla sticky-top">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img class="logo-img" src="./assets/images/logo.png" alt="my logo"></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li class="menu-has-children"><a href="">Blog</a>
+                        <ul>
+                            <li><a href="blog-home.html">Blog Home</a></li>
+                            <li><a href="blog-single.html">Latest Post</a></li>
+                        </ul>
+                        </li>	
+                        <li><a href="contact.html">Contact</a></li>	
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
         <div class="container-fluid">
           <div class="row">
             <div class="card col-md-4 align-self-stretch" style="margin-left: 2em !important;"> 
@@ -128,14 +151,15 @@
         </div>
         
         <footer class="container-fluid madla center margin-top">
-            <p>Find me on social media.</p>
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+            <p>Find me on social media:</p>
+            <a class="text-white" href="https://facebook.com" target="_blank"><i class="fa fa-facebook-official hover-opacity"></i></a>
+            <a class="text-white" href="https://instagram.com" target="_blank"><i class="fa fa-instagram hover-opacity"></i></a>
+            <a class="text-white" href="https://twitter.com" target="_blank"><i class="fa fa-twitter hover-opacity"></i></a>
+            <a class="text-white" href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin hover-opacity"></i></a>
+            <p><i class="fa fa-copyright text-white"></i> 2020, Leonard Box</p>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
